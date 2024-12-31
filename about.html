@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #b40d0d;
+  color: rgb(255, 255, 255);
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.column {
+  width: 100%;
+  max-width: 400px; /* Limits the width of the card */
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(80, 0, 145, 0.2);
+  margin: 8px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  max-width: 300px; /* Limits image width */
+  border-radius: 50%; /* Makes the image circular */
+  margin: auto;
+  display: block;
+  object-fit: cover; /* Ensures the image fits well in the circular frame */
+  aspect-ratio: 1 / 1; /* Makes the image perfectly square for circular cropping */
+}
+
+.container {
+  padding: 16px;
+}
+
+.title {
+  color: rgb(34, 3, 3);
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: rgb(102, 202, 35);
+  background-color: #080000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #7a0000;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us</h1>
+  <p>Funny and crazy at the same time.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://github.com/SLTHAKSHANIKAYA/SL-Thakshanikaya/blob/main/443929760_793164792879229_2941149928171161417_n.jpg?raw=true" alt="Photo of Janith Prabodha">
+      <div class="container">
+        <h2>Hello, I'm Janith Prabodha, your favorite content creator.</h2>
+        <p>Hey, I am Janith Prabodha. Thanks for visiting! Be sure to subscribe and join us for daily tech reviews, video editing, photo editing, app reviews, unboxing videos, e-money tips, music, and YouTube growth tips.</p>
+        <p>Email: <a href="mailto:slthakshanikaya@gmail.com">slthakshanikaya@gmail.com</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
